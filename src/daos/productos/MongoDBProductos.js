@@ -1,4 +1,4 @@
-import MongoClass from "../../contenedores/mongoClass";
+import MongoClass from "../../contenedores/mongoClass.js";
 
 export class MongoDBProductos extends MongoClass{
     constructor(){
