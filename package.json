@@ -1,0 +1,25 @@
+{
+  "name": "segunda-entrega-proyecto-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PablodelaTorre/segunda-entrega-proyecto-back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PablodelaTorre/segunda-entrega-proyecto-back/issues"
+  },
+  "homepage": "https://github.com/PablodelaTorre/segunda-entrega-proyecto-back#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0"
+  }
+}
