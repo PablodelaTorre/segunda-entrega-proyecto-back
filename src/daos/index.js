@@ -9,6 +9,11 @@ let productsDao
             productsDao = new MongoDBProductos()
         })            
         break
+
+        case 'mongoDbCarrito':
+            import('./carritos/MongoDBCarritos.js').then(({MongoDBCarritos})=>{
+                carritosDao = new MongoDBCarritos()
+            })
         default:
             console.log('Esta en default')
             break;
